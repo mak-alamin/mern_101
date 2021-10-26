@@ -1,0 +1,24 @@
+{
+  "name": "mern_101",
+  "version": "1.0.0",
+  "description": "A strater MERN project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "app": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mak Alamin",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "validation": "0.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14",
+    "live-server": "^1.2.1"
+  }
+}
