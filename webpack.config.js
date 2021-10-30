@@ -9,10 +9,9 @@ module.exports = {
     },
     mode: 'development',
     devServer: {
-        port: 9000,
+        port: 3000,
         compress: true,
         open: true,
-        hot: true
     },
     module: {
         rules: [
