@@ -1,5 +1,3 @@
-function SquareMe(x) {
-    return x * x;
-}
+const SquareMe = (x) => x * x
 
 export default SquareMe;
