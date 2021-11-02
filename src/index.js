@@ -18,7 +18,9 @@ console.log(SquareMe(10));
 
 
 function App() {
-    return <h1>Hello From MERN World!</h1>
+    return (
+        <h1>Hello From MERN World!</h1>
+    )
 }
 
 ReactDOM.render(<App />, document.getElementById("app"))
