@@ -1,3 +1,5 @@
+import './styles/main.scss'
+
 import React from "react"
 import ReactDOM from "react-dom"
 
@@ -7,7 +9,7 @@ import Rectangle from "./components/Rectangle"
 import "./index.html"
 
 
-let rect1 = new Rectangle(4, 20)
+let rect1 = new Rectangle(4, 10)
 console.log(rect1.area)
 
 console.log(rect1.a);
