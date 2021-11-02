@@ -1,10 +1,11 @@
 {
   "name": "mern_101",
   "version": "1.0.0",
-  "description": "A strater MERN project",
+  "description": "A starter MERN project",
   "main": "./src/index.js",
   "scripts": {
-    "start": "webpack-dev-server"
+    "dev": "webpack-dev-server",
+    "build": "webpack"
   },
   "author": "Mak Alamin",
   "license": "ISC",
