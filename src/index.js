@@ -19,7 +19,10 @@ console.log(SquareMe(10));
 
 function App() {
     return (
-        <h1>Hello From MERN World!</h1>
+        <div>
+            <h1>Hello From MERN World!</h1>
+            <h1>What the hell is React!</h1>
+        </div>
     )
 }
 
