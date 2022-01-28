@@ -4,6 +4,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 
 import AddTaskForm from './components/AddTaskForm'
+import ToDoList from './components/ToDoList'
 
 import "./index.html"
 
@@ -12,6 +13,7 @@ function App() {
         <div>
             <h1>To Do List</h1>
             <AddTaskForm />
+            <ToDoList/>
         </div>
     )
 }
