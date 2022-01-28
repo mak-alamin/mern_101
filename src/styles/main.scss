@@ -7,5 +7,15 @@ body {
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 60px;
+}
+
+form{
+  background-color: aliceblue;
+  max-width: 500px;
+  padding: 20px;
+}
+form input{
+  margin-bottom: 10px;
+  padding: 5px;
 }
