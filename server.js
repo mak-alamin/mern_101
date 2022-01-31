@@ -1,6 +1,8 @@
 const {MongoClient} = require('mongodb');
 
-const url = "mongodb+srv://mak_alamin:mongopass@cluster0.kdfnv.mongodb.net/test_db?retryWrites=true&w=majority";
+require('dotenv').config();
+
+const url = process.env.MONGO_URL;
 
 MongoClient.connect(url, function(err, db) {
     if (err) throw err;
